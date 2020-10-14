@@ -1,0 +1,114 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+a{
+color: brown;
+}
+
+header{
+background-image: url("fotos/Mapa.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+height: 100vh;
+}
+
+.Menu{
+display: flex;
+justify-content: space-around;
+color:white;
+height: 5vh;
+font-size: 20px;
+}
+
+.arg{
+background-image: url("fotos/Argentina.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+height: 100vh;
+}
+
+.noreste{
+background-image: url("fotos/Nordeste.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+height: 100vh;
+}
+
+.noroeste{
+background-image: url("fotos/Noroeste.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+height: 200vh;
+}
+
+.pampeana{
+background-image: url("fotos/Pampeana.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+height: 100vh;
+}
+
+.cuyana{
+background-image: url("fotos/cuyo.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+height: 100vh;
+}
+
+.patagonica{
+background-image: url("fotos/Patagonia.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+height: 100vh;
+}
+
+.tina{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+height: 95vh;
+color: white;
+}
+
+h1{
+display: flex;
+text-align: center;
+justify-content: center;
+color:orange;
+}
+
+p{
+display: flex;
+text-align: center;
+justify-content: center;
+color: Black;
+font-size: 27px;
+width : 90%;
+margin: 0 auto;
+padding: 60px;
+}
+
+footer{
+width: 100%;
+height: 200px;
+background: grey;
+text-align: center;
+line-height: 65px;
+}
