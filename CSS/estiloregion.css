@@ -1,83 +1,72 @@
-body{
-  background-color: #8FD2F0;
+body {
+  background-color: #D4EBF6;
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    height: 180vh;
-}
-
-.caracteristicas{
-  margin-top: 25vh;
-  width: 60%;
-  height: 80%;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 2%;
-}
-
-.bordes{
-  background-color: white;
-  padding: 20px;
-}
-
-h5{
-  font-family: 'Open Sans', Helvetica;
-  font-weight: bolder;
-  font-size: 16px;
+.titulo h1 {
+  text-align: center;
+  font-family: Arial, Helvetica;
+  margin: 10px auto;
   text-decoration: underline;
-  margin-bottom: 3vh;
 }
 
-p{
-  font-family: 'Open Sans', Helvetica;
-  font-size: 14px;
-}
+  h2 {
+    font-family: 'Open Sans', Helvetica;
+    font-size: 20px;
+  }
 
-.galeria {
-    height: calc(400px + 3em);
-    width: 400px;
-    margin-top: 55vh;
-    margin-left: 20vh;
-    border: 1px solid #555;
-    position: relative;
-    display: flex;
+  p {
+    text-align: justify;
+  }
+
+.clima, .economia {  display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.relieve, .turismo{
+    display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
-.galeria img {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 3s;
+.foto, .descripcion{
+  width: 40vw;
 }
 
-.galeria input[type=radio] {
-    position: relative;
-    bottom: -30px;
-    margin: 2px;
+.circulo{
+  width: 20vw;
 }
 
-.galeria input[type=radio]:nth-of-type(1):checked~img:nth-of-type(1) {
-    opacity: 1;
+.foto, .circulo, .descripcion {
+  margin: 10px auto;
+  font-family: Arial, Helvetica;
 }
 
-.galeria input[type=radio]:nth-of-type(2):checked~img:nth-of-type(2) {
-    opacity: 1;
+.foto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.galeria input[type=radio]:nth-of-type(3):checked~img:nth-of-type(3) {
-    opacity: 1;
+.foto img {
+  width: 500px;
+  height: 300px;
+  border-radius: 3%;
 }
 
-.galeria input[type=radio]:nth-of-type(4):checked~img:nth-of-type(4) {
-    opacity: 1;
+.circulo {
+  border-radius: 50%;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 100px;
+  width: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
