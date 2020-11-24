@@ -1,0 +1,21 @@
+.mb-4 {
+  padding: 5vh;
+  height: 75vh;
+}
+
+.foto img {
+  width: 100%;
+  height: 100vh;
+}
+
+.btn {
+  background-color: #B8DEF1;
+}
+
+body {
+  background-color: #EDF3F5;
+}
+
+.list-unstyled {
+  margin-top: 7vh;
+}

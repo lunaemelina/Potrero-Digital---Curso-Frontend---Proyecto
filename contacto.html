@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/estilocontacto.css">
+    <link rel="stylesheet" href="./CSS/estiloscomun.css">
+
+    <title>Argentina Tour</title>
+  </head>
+  <body>
+
+    <header>
+
+        <nav class="navegacion">
+
+          <div class="logo">
+            <img src="./images/logo.png" alt="">
+          </div>
+
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pais.html">Nuestro país</a>
+                  <ul class="submenu">
+                      <li><a href="noroeste.html">Región Noroeste</a></li>
+                      <li><a href="noreste.html">Región Noreste</a></li>
+                      <li><a href="cuyo.html">Región de Cuyo</a></li>
+                      <li><a href="pampeana.html">Región Pampeana</a></li>
+                      <li><a href="patagonia.html">Región Patagónica</a></li>
+                  </ul>
+                </li>
+                <li><a href="datos.html">Datos útiles</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+      <div class="foto">
+        <img src="https://cdn.pixabay.com/photo/2018/01/11/21/27/desk-3076954_960_720.jpg" alt="">
+      </div>
+
+      <div class="mb-4">
+
+          <h2 class="h1-responsive font-weight-bold text-center my-4">¡Contactanos!</h2>
+
+          <p class="text-center w-responsive mx-auto mb-5">¿Tenes alguna duda? No dudes en contactarnos. Nuestro equipo intentará contactarse con vos a la brevedad.
+
+          <div class="row">
+
+              <div class="col-md-9 mb-md-0 mb-5">
+                  <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                      <div class="row">
+
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="name" name="name" class="form-control">
+                                  <label for="name" class="">Tu nombre</label>
+                              </div>
+                          </div>
+
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="email" name="email" class="form-control">
+                                  <label for="email" class="">Tu email</label>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="row">
+                          <div class="col-md-12">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="subject" name="subject" class="form-control">
+                                  <label for="subject" class="">Asunto</label>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="row">
+
+                          <div class="col-md-12">
+
+                              <div class="md-form">
+                                  <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                  <label for="message">Tu mensaje</label>
+                              </div>
+                          </div>
+                      </div>
+
+                  </form>
+
+                  <div class="text-center text-md-left">
+                      <a class="btn" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                  </div>
+                  <div class="status"></div>
+              </div>
+
+              <div class="col-md-3 text-center">
+                  <ul class="list-unstyled mb-0">
+                      <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                          <p>Buenos Aires, Buenos Aires, ARG</p>
+                      </li>
+
+                      <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                          <p>+54 9 11 5678-9012</p>
+                      </li>
+
+                      <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                          <p>argentinatour@tour.com.ar</p>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+    </main>
+
+    <footer>
+      <div class="copyright">
+          © Tour Argentina. Todos los derechos reservados.
+      </div>
+      <a href="http://www.facebook.com/" target="_blank"><img alt="Siguenos en Facebook"
+              src="https://lh3.googleusercontent.com/-NSLbC_ztNls/T6VX0g6z8AI/AAAAAAAAA0A/_vyIBrmZbuY/s48/facebook48.png"
+              width=35 height=35 /></a>
+      <a href="http://twitter.com/" target="_blank"><img
+              src="https://lh6.googleusercontent.com/-vao9pzZoGtk/T6VYC4d1YMI/AAAAAAAAA0U/4rdP2chJido/s48/twitter48.png"
+              width=35 height=35 /></a>
+      <a href="https://www.instagram.com/" target="_blank"><img alt="Siguenos en Blogger"
+              src="https://lh3.googleusercontent.com/-D-erW-8vZFo/UIqE3H6oUuI/AAAAAAAABgE/4kh346Lwaxk/s48/instagram48.png"
+              width=35 height=35 /></a>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
