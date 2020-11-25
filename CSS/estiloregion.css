@@ -4,23 +4,28 @@ body {
 
 .titulo h1 {
   text-align: center;
-  font-family: Arial, Helvetica;
-  margin: 10px auto;
-  text-decoration: underline;
+  font-family: 'Open Sans', Helvetica;
+  font-size: 30px;
+  margin: auto;
+  text-decoration: none;
+  font-weight: lighter;
+  padding-top: 20vh;
+  padding-bottom: 5vh;
 }
 
   h2 {
-    font-family: 'Open Sans', Helvetica;
-    font-size: 20px;
-  }
+  font-family: 'Open Sans', Helvetica;
+  font-size: 20px;
+}
 
   p {
-    text-align: justify;
-  }
+  text-align: justify;
+}
 
-.clima, .economia {  display: flex;
-    flex-direction: row;
-    align-items: center;
+.clima, .economia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .relieve, .turismo{
@@ -40,7 +45,8 @@ body {
 
 .foto, .circulo, .descripcion {
   margin: 10px auto;
-  font-family: Arial, Helvetica;
+  padding: 3vh;
+  font-family: 'Open Sans', Helvetica;
 }
 
 .foto {
@@ -68,5 +74,9 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+}
+
+.navegacion ul{
+    list-style: none;
+    margin-bottom: 23px;
 }

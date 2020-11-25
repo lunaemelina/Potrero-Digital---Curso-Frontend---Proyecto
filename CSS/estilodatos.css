@@ -1,0 +1,52 @@
+.foto img {
+  height: 95vh;
+  width: 100%;
+}
+
+main {
+  height: 750vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+
+}
+
+body {
+  background-color: #D4EBF6;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+  padding: 4vh;
+  font-family: 'Open Sans', Helvetica;
+  background-color: #E9F6FF;
+}
+
+p {
+  text-align: justify;
+}
+
+.ubicacion {
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
+
+.caracteristicas {
+  margin-bottom: 3vh;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+}
